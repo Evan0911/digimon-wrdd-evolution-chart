@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('', include("evolution_chart.urls"), name='evolution_chart-index'),
+    path('dwrddChart', include("evolution_chart.urls"), name='evolution_chart-index'),
     path('admin/', admin.site.urls),
 ]
